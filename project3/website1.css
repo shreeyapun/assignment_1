@@ -1,0 +1,352 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+.main{
+    background-image: url(main-image.png);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap:50px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    color: white;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.magar{
+    text-align: center;
+    margin-top: 20px;
+}
+.pun{
+    /* display: flex; */
+    /* border: 2px solid gainsboro; */
+    background-color:whitesmoke;
+    width: 250px;
+    height: 150px;
+    /* box-shadow: 0 8px 16px grey; */
+    border-radius: 20px;
+    padding:25px ;
+    margin: 50px;
+}
+.pun:hover{
+    background-color: white;
+    box-shadow: 0 8px 16px grey;
+}
+.home{
+    /* border: 1px solid black ; */
+    background-color:whitesmoke ;
+    /* box-shadow: 0 8px 16px  grey; */
+    width: 250px;
+    height: 150px;
+    border-radius:20px ;
+    padding:25px ;
+    margin: 50px;
+
+
+}
+.home:hover{
+    background-color: white;
+    box-shadow: 0 8px 16px grey ;
+}
+
+.who{
+    /* border: 1px solid black ; */
+    background-color:whitesmoke ;
+    /* box-shadow: 0 8px 16px  grey; */
+    width: 250px;
+    height: 150px;
+    border-radius:20px ;
+    padding:25px ;
+    margin: 50px;
+
+
+
+}
+.who:hover{
+    background-color: white;
+    box-shadow: 0 8px 16px grey ;
+}
+
+.what{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-items: center; */
+    justify-content: center;
+}
+.best{
+    background-image:url(images.jpg);
+     width: 100%;
+     background-size: 100%;
+     height: 100vh;
+   background-repeat: no-repeat;
+   justify-items: center;
+}
+.service{
+    justify-items: center;
+    /* padding: 30px; */padding: 100px;
+    /* background-color: brown; */
+    /* color:white; */
+}
+.where{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 150px;
+    /* height: 150px; */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px gray;
+}
+.where:hover{
+    background-color: white;
+}
+.give{
+    display: flex;
+    gap: 50px;
+}
+.bye{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    /* background-color: white; */
+    box-shadow: 0 5px 10px gray;
+}
+.bye:hover{
+    background-color: white;
+}
+.hi{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 150px;
+    /* height: 150px; */
+    padding: 20px;
+    text-align: center;
+    /* background-color: white; */
+    box-shadow: 0 5px 10px gray;
+}
+.hi:hover{
+    /* box-shadow: 0 5px 10px gray; */
+    background-color: white;
+}
+
+
+.hello{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 150px;
+    /* height: 150px;*/
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px gray;
+}
+.hello:hover{
+    background-color: white
+}
+.distination{
+    text-align: center;
+}
+.thailand{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    justify-content: right;
+    /* text-align: center; */
+}
+.thai{
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: 0 5px 10px gray;
+    gap: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.indonesia{
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 50px 50px 50px 50px;
+    justify-content: right;
+}
+.indo{
+    display: flex;
+    box-shadow: 0 5px 10px gray;
+    gap: 20px;
+    border-radius: 10px;
+}
+.Newzealand{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    justify-content: right;
+}
+.new{
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: 0 5px 10px gray;
+    gap: 20px;
+    border-radius: 10px;
+}
+.next{
+    background-color:whitesmoke;
+    color: black;
+    width: 100%;
+    height: 200px;
+    padding: 50px 50px 50px 50px;
+}
+.packages{
+    text-align: center;
+}
+.you{
+    display: flex;
+    /* gap: 10px; */
+    color: white;
+    
+    justify-content: center;
+    gap:50px;
+}
+button{
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: gray;
+}
+button:hover{
+    background-color: green;
+}
+.nights{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 60px 60px 60px 60px;
+    box-shadow: 0 5px 10px gray;
+    
+}
+.baba{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.baba button{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    
+}
+.class{
+    background-color: whitesmoke;
+    display: flex; 
+    justify-content: center;
+    /* gap: 50px; */
+        /* margin: 60px 60px 60px 60px; */
+}
+.day{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px gray;
+    margin: 60px 60px 60px 60px;
+}
+
+.person{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px gray;
+    margin: 60px 60px 60px 60px;
+}
+.ninja{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.ninja h5{
+    color: gray;
+}
+.god{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.popular{
+    background-image: url(imag3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+
+}
+/*  
+    @media only screen and (max-width:600px)
+    { body{
+        background-color: yellowgreen;
+    }
+ } 
+@media (min-width:600px) and (max-width:900px){
+    body{
+        background-color: green;
+    }
+}  */
+  /* @media (min-width:981px){
+    body{
+        background-color: blueviolet;
+    }
+  } */
+  @media only screen and (orientation:landscape){
+    body{
+        background-color: teal;
+    }
+  }
+  @media (orientation:portrait){
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: tomato;
+    }
+  }
+  @media (min-resolution:192dpi){
+    body{
+        background-image:url(image1.png) ;
+    }
+  }
+  
